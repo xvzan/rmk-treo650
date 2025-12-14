@@ -9,9 +9,9 @@ chip = "nrf52840"
 
 [matrix]
 # 行引脚（row-gpios）
-input_pins = ["017", "020", "022", "024", "100", "011"]
+input_pins = ["P0_17", "P0_20", "P0_22", "P0_24", "P1_00", "P0_11"]
 # 列引脚（col-gpios）
-output_pins = ["031", "029", "002", "115", "113", "111", "010", "009"]
+output_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11", "P0_10", "P0_09"]
 # 二极管方向：col2row
 # 注意：RMK 本地编译时方向在 feature gate 里设置，这里只有云编译时才生效
 # row2col = false
@@ -46,12 +46,12 @@ keymap = [
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
-# capslock.pin = "B2"
+# capslock.pin = "PB2"
 # capslock.low_active = true
-# scrolllock.pin = "A3"
+# scrolllock.pin = "PA3"
 # scrolllock.low_active = true
 # Just ignore if no light pin is used for it
-# numslock.pin = "A5"
+# numslock.pin = "PA5"
 # numslock.low_active = true
 
 
